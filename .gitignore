@@ -41,4 +41,3 @@ jspm_packages
 node_modules
 .next
 out
-package-lock.json
