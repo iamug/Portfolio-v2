@@ -53,7 +53,7 @@ export const Footer = (props: FlexProps) => {
           <SocialButton label={"Github"} href={"https://github.com/iamug"}>
             <i className="fab fa-github" />
           </SocialButton>
-          <SocialButton label={"Linkedln"} href={"#"}>
+          <SocialButton label={"Linkedln"} href={"https://www.linkedin.com/in/aguziendu-ugochukwu/"}>
             <i className="fab fa-linkedin-in" />
           </SocialButton>
           <SocialButton label={"Instagram"} href={"https://instagram.com/iamug_"}>

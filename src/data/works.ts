@@ -44,8 +44,7 @@ export const Works: Array<IWork> = [
     name: "Attendance Managment App (Backend)",
     description: "App to track clockins and clock outs of employees with reporting to show attendance by days, weeks etc",
     stack: "ExpressWebJs, MongoDb",
-    github: "https://github.com/iamug/react-advice-app/",
-    live: "https://iamug.github.io/react-advice-app/",
+    github: "https://github.com/iamug/Attendance-Management-System-Backend",
   },
   {
     name: "React Advice App",
