@@ -5,7 +5,16 @@ export default class Document extends NextDocument {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <meta name="description" content="Portfolio site for Aguziendu Ugochukwu Software Engineer" />
+          <meta name="author" content="Aguziendu Ugochukwu, ugochukwu.dev, iamug.github.io/Portfolio-v2, ugochukwu.dev" />
+          <meta
+            name="keywords"
+            content="Aguziendu Ugochukwu Portfolio Web Designer developer Uzodinma Website software engineer Hire"
+          />
+          <meta property="og:title" content="Aguziendu Ugochukwu - Software Engineer" key="title" />
+          <title>Aguziendu Ugochukwu - Software Engineer </title>
+        </Head>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
