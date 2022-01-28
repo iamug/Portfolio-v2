@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "next build && touch ./out/.nojekyll && echo 'ugochukwu.dev' > ./out/CNAME",
+    "build": "next build",
     "export" : "next export",
     "start": "next start"
   },
