@@ -83,4 +83,10 @@ export const Works: Array<IWork> = [
     stack: "WordPress",
     live: "https://scrapbankafrica.com/",
   },
+  {
+    name: "Mos Kreative Kitchen Website ",
+    description: "Website for food vendor Mos Kreative Kitchen ",
+    stack: "WordPress",
+    live: "https://portfolio.ugochukwu.dev/moskreativekitchen/",
+  },
 ];

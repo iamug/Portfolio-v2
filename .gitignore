@@ -40,4 +40,5 @@ jspm_packages
 
 node_modules
 .next
+portfolio-workspace.code-workspace
 out
