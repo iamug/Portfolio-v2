@@ -25,7 +25,7 @@ export const Works: Array<IWork> = [
   {
     name: "Find Talents App",
     description:
-      "Frontend application to view talents including saving the profile of a talent ",
+      "Frontend application to view talents including saving the profile of a talent",
     stack: "React, RTK Query, Bootstrap",
     github: "https://github.com/iamug/Find-Talents",
     live: "https://iamug.github.io/Find-Talents/",
