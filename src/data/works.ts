@@ -7,6 +7,30 @@ export interface IWork {
 }
 export const Works: Array<IWork> = [
   {
+    name: "Esusu Confam",
+    description:
+      "Esusu Confam application backend to allow users to register, login. create and search for groups and its members",
+    stack: "Nestjs, TypeORM and MySQL",
+    github: "https://github.com/iamug/ESUSU-Confam",
+    live: "https://esusu-db.herokuapp.com/api/",
+  },
+  {
+    name: "User Bank System",
+    description:
+      "User banking system backend to create accounts, fund account, transfer and withdraw from account",
+    stack: "Nestjs, Knex and MySQL",
+    github: "https://github.com/iamug/User-Bank-System",
+    live: "https://user-bank-system.herokuapp.com/",
+  },
+  {
+    name: "Find Talents App",
+    description:
+      "Frontend application to view talents including saving the profile of a talent ",
+    stack: "React, RTK Query, Bootstrap",
+    github: "https://github.com/iamug/Find-Talents",
+    live: "https://iamug.github.io/Find-Talents/",
+  },
+  {
     name: "Event Menu App",
     description:
       "Event menu application that enables users to create a menu and share a unique link and track orders from different tables using a QRCode ",
