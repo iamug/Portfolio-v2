@@ -62,7 +62,7 @@ export const Stacks = () => {
           </Text>
           <Box color={color} fontWeight="600">
             <List spacing={3}>
-              {["Nodejs/Express", "Nestjs", "FastAPI"].map((item, index) => (
+              {["Nodejs / Express", "Nestjs", "FastAPI", "Golang / Fiber"].map((item, index) => (
                 <ListItem key={index}>
                   <ListIcon as={CheckIcon} color="green.500" /> {item}
                 </ListItem>
