@@ -32,7 +32,7 @@ export const Hero = ({ title }: { title: string }) => {
               <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: "column", sm: "row" }}>
                 <Button
                   as="a"
-                  href="https://drive.google.com/file/d/1N3Y-dfNeQsaL_wxfYevUQ3xfnNiJ_r06/view"
+                  href="https://drive.google.com/file/d/1YgnwIeErzK2eZW1V2_tYVcFrcC0HuQCS/view"
                   target="_blank"
                   referrerPolicy="no-referrer"
                   size={"lg"}
@@ -43,7 +43,7 @@ export const Hero = ({ title }: { title: string }) => {
                   _hover={{ bg: "teal.900" }}
                   rightIcon={<ExternalLinkIcon fontSize="xl" mx="2px" />}
                 >
-                  Download CV
+                  Download Resume
                 </Button>
 
                 <Button
