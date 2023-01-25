@@ -15,6 +15,15 @@ export default class Document extends NextDocument {
           <meta property="og:title" content="Aguziendu Ugochukwu - Software Engineer" key="title" />
           <title>Aguziendu Ugochukwu - Software Engineer </title>
         </Head>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-9LBBS0NMR7"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+
+          gtag('config', 'G-9LBBS0NMR7');
+        </script>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
