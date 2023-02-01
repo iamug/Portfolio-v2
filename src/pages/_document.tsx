@@ -1,5 +1,4 @@
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
-import Script from 'next/script';
 import { ColorModeScript } from "@chakra-ui/react";
 
 export default class Document extends NextDocument {
@@ -16,17 +15,6 @@ export default class Document extends NextDocument {
           <meta property="og:title" content="Aguziendu Ugochukwu - Software Engineer" key="title" />
           <title>Aguziendu Ugochukwu - Software Engineer </title>
         </Head>
-        {/* <!-- Google tag (gtag.js) --> */}
-        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-9LBBS0NMR7"/>
-        <Script id='google-analytics' strategy="afterInteractive">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-9LBBS0NMR7');
-        `}
-          </Script>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
