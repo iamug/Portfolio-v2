@@ -18,19 +18,15 @@ export default class Document extends NextDocument {
         </Head>
         {/* <!-- Google tag (gtag.js) --> */}
         <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-9LBBS0NMR7"/>
-        <Script
-            id='google-analytics' strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-9LBBS0NMR7', {
-                    page_path: window.location.pathname,
-                  });
-                `,
-                }}
-            />
+        <Script id='google-analytics' strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-9LBBS0NMR7');
+        `}
+          </Script>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
