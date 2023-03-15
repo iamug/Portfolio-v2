@@ -30,7 +30,7 @@ export const Hero = ({ title }: { title: string }) => {
                 interactive interfaces that communicate with well structured backend APIs.
               </Text>
               <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: "column", sm: "row" }}>
-                <Button
+                {/* <Button
                   as="a"
                   href="https://drive.google.com/file/d/1YgnwIeErzK2eZW1V2_tYVcFrcC0HuQCS/view"
                   target="_blank"
@@ -44,7 +44,7 @@ export const Hero = ({ title }: { title: string }) => {
                   rightIcon={<ExternalLinkIcon fontSize="xl" mx="2px" />}
                 >
                   Download Resume
-                </Button>
+                </Button> */}
 
                 <Button
                   as="a"
