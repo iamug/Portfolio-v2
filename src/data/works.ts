@@ -7,6 +7,13 @@ export interface IWork {
 }
 export const Works: Array<IWork> = [
   {
+    name: "Url Shortner",
+    description:
+      "Url shortner backend api to encode, decode and get basic stats for a shortened url",
+    stack: "Nestjs, In-memory DB",
+    github: "https://github.com/iamug/url-shortener"
+  },
+  {
     name: "Esusu Confam",
     description:
       "Esusu Confam application backend to allow users to register, login. create and search for groups and its members",
@@ -93,7 +100,13 @@ export const Works: Array<IWork> = [
     name: "AlliedRx Pharmacy Website ",
     description: "Website for AlliedRx Pharmacy with a protal to manage prescription refills and transfers",
     stack: "WordPress",
-    live: "https://alliedrxpharmacy.com/",
+    live: "https://alliedrxpharmacy.portfolio.ugochukwu.dev/",
+  },
+  {
+    name: "Primary Care of North Carolina Website ",
+    description: "Website for Primary Care of North Carolina, USA with a protal to manage scheduled appointments",
+    stack: "WordPress",
+    live: "https://pcnchealth.com/",
   },
   {
     name: "Private Sector Health Alliance of Nigeria Website ",
