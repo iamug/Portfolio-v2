@@ -18,7 +18,7 @@ export const Contact = () => {
             <Stack flex={1} spacing={{ base: 5, md: 10 }}>
               <Heading lineHeight={1.6} fontWeight={400} fontSize={{ base: "xl", sm: "2xl", lg: "4xl" }}>
                 <Text as={"span"} color={color}>
-                  If you like my work or you just want to say hi, you can send me an email at
+                  If you like my work or you just want to say hi, 
                   <Link
                     fontWeight={600}
                     textDecoration="underline"
@@ -28,7 +28,7 @@ export const Contact = () => {
                     _hover={{ boxShadow: "unset", color: "unset" }}
                   >
                     {" "}
-                    uaguziendu@gmail.com <ExternalLinkIcon fontSize="3xl" mx="2px" />
+                   you can send me an email <ExternalLinkIcon fontSize="3xl" mx="2px" />
                   </Link>
                 </Text>
               </Heading>

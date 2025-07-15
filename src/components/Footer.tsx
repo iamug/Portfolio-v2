@@ -56,9 +56,9 @@ export const Footer = (props: FlexProps) => {
           <SocialButton label={"Linkedln"} href={"https://www.linkedin.com/in/aguziendu-ugochukwu/"}>
             <i className="fab fa-linkedin-in" />
           </SocialButton>
-          <SocialButton label={"Instagram"} href={"https://instagram.com/iamug_"}>
+          {/* <SocialButton label={"Instagram"} href={"https://instagram.com/iamug_"}>
             <i className="fab fa-instagram" />
-          </SocialButton>
+          </SocialButton> */}
         </Stack>
       </Flex>
     </Box>

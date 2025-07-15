@@ -26,7 +26,7 @@ export const Hero = ({ title }: { title: string }) => {
                 </Text>
               </Heading>
               <Text color={color} lineHeight={1.5} fontSize={{ base: "xl" }}>
-                I'm a Full-Stack software engineer based in Lagos Nigeria. I build software solutions which involves beautiful
+                I'm a senior software engineer based in Lagos Nigeria. I build software solutions which involves beautiful
                 interactive interfaces that communicate with well structured backend APIs.
               </Text>
               <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: "column", sm: "row" }}>

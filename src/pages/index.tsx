@@ -11,7 +11,7 @@ import { Stacks } from "../components/Stack";
 import { Contact } from "../components/Contact";
 
 const Index = () => (
-  <Container minW={{ base: "container" }} px={{ base: 4, md: 6 }} minHeight="100vh" transition="background-color 800ms linear">
+  <Container minW={{ base: "container" }} px={{ base: 4, md: 6 }} minHeight="100vh" transition="background-color 600ms linear">
     <Hero />
     <Stacks />
     <Works />
